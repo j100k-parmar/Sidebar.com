@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+
+/* nav{
+    background-color:;
+} */
+
+
+/* .menu {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(223, 128, 144);
+} */
+
+.main {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    /* margin-top: 50px; */
+    /* padding: 30px 0 0 100px; */
+}
+
+.sub1,
+.sub2,
+.sub3 {
+    height: 5px;
+    width: 40px;
+    background-color: white;
+    margin: 10px 0 0 10px;
+    transition: 0.4s;
+}
+
+.change .sub1 {
+    transform: rotate(-45deg) translate(-10px, 16px);
+}
+
+.change .sub2 {
+    transform: rotate(0deg) translate(55px, 6px);
+}
+
+.change .sub3 {
+    transform: rotate(45deg) translate(-3px, -13px);
+}
+
+.box {
+    width: 55px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 200px;
+    height: 250px;
+    background-color: gray;
+    float: left;
+    transform: translate(-300px);
+    transition: 1s;
+}
+
+.sidebar ul li {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.sidebar ul a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.out {
+    transform: translate(0px);
+}
